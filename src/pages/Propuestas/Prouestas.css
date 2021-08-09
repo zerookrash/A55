@@ -1,0 +1,38 @@
+.propuestas {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+.opts {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  margin-bottom: 30px;
+}
+
+.opt {
+  border: 1px solid grey;
+  margin: 0 10px;
+  padding: 10px;
+  width: 90%;
+  text-align: justify;
+  box-shadow: 6px 6px 5px 0px rgba(182,166,166,0.94);
+}
+
+@media only screen and (max-width: 900px) {
+  .opts {
+    flex-direction: column;
+    width: 100%;
+  }
+
+  .opt {
+    width: 100%;
+    margin: 20px;
+  }
+}
+
